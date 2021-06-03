@@ -1,0 +1,20 @@
+.input {
+   
+    width: 319px;
+    height: 45px;
+    border: 0.5px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding-left: 20px;
+  
+}
+
+.search{
+  
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    font-size: 16px !important;
+    color: #BDBDBD
+    }
+

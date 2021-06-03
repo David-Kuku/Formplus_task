@@ -1,0 +1,18 @@
+.number{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 18px;
+    
+    color: #989898;
+}
+
+@media only screen and (max-width: 600px){
+    .number{
+        font-size: 15px;
+    }
+    .title{
+        font-size: 15px;
+    }
+}

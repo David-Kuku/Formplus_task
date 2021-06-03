@@ -1,0 +1,49 @@
+
+.pagelist li{
+    list-style: none;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+button{
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid;
+    outline: none;
+}
+
+.arrow-right{
+    font-size: 15px !important;
+    margin-left: 10px;
+   
+}
+.arrow-left{
+    font-size: 15px !important;
+    margin-right: 10px;
+   
+}
+
+
+@media only screen and (max-width: 600px){
+    button{
+        border: 1px solid;
+    }
+    .arrow-right{
+        font-size: 15px !important;
+        margin-left: 5px;
+       
+    }
+    .arrow-left{
+        font-size: 15px !important;
+        margin-right: 5px;
+       
+    }
+    b{
+        font-size: small;
+    }
+}

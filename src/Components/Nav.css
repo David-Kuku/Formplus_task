@@ -1,0 +1,73 @@
+.sort{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.different{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.classifications{
+    width:160px;
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+    outline: none;
+    background-color: white;
+    
+}
+
+.field{
+    color: #b9b6b6;
+    height: 35px;
+    width:160px;
+    border: 0.5px solid #C4C4C4;
+    border-radius: 3px;
+    margin-right: 10px
+    
+    
+}
+.sorttt{
+    margin-right: 10px
+}
+
+@media only screen and (max-width: 600px) {
+    .different{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0px;
+    }
+    .sorttt{
+    margin-right: 0;
+    }
+    .field{
+    margin-right: 0;
+    }
+
+    .classifications{
+        width:190px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 785px){
+    .different{
+        margin-top: 20px;
+    }
+    .sorttt{
+        margin-right: 2px;
+        
+    }
+    .classifications{
+        width:120px;
+    }
+    .field{
+        margin-right: 5px;
+        height: 35px;
+        width:130px;
+       
+    }
+}
